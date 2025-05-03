@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-color: gray;
 }
 div img {
    float: right; 
@@ -19,4 +20,20 @@ div{
     margin: 10px;
     padding: 10px;
 
+}
+header,footer {
+  background-color: #130873;
+  height: 100px;
+  display: flex
+}
+a {
+ background-color: #A68100 ; 
+ color: white;
+ border: 1px solid #A68100;
+ width: 80px;
+ height: 33px;
+ padding: 15px;
+ margin-top: 20px;
+ margin-left: 10px;
+ border-radius: 25px;
 }
